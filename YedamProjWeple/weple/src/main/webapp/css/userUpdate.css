@@ -1,0 +1,116 @@
+ul li{
+    list-style: none;
+}
+#wrapper{
+    width:1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+header, footer, nav, aside, form{
+border : 1px solid #ddd;
+margin: 5px;
+padding: 10px;  
+} 
+header{
+height: 50px;
+}
+#allMenu { 
+padding-left: 0;
+width: 978px;
+height: 50px;
+text-align: center; 
+}
+#allMenu ul li{
+display: inline-block;
+padding: 10px;
+}
+#myInfo {
+height: 40px;
+}
+#myInfo ul li {
+display: inline-block;
+text-align: justify;
+}
+#mypageMenu{
+float: left;
+width: 200px;
+height: 500px;
+text-align: center;
+}
+#mypageMenu ul {
+text-align: center;
+padding-left: 0px;
+}
+#mypageMenu ul li {
+padding: 20px;
+}
+#relogin{
+float:right;
+width: 728px;
+height: 500px; 
+}
+#relogin ul {
+padding-left: 0;
+}
+footer{
+clear: both;
+}
+fieldset{
+width: 600px;
+margin-left: 50px;
+margin-top: 150px;
+}
+input[type="text"]{
+margin-left: 15px;
+}
+#signUp{
+margin: 0 auto;
+margin-left: 233px;
+margin-top: 10px;
+width: 760px;
+height : 520px;
+border: 1px solid #ddd;
+}
+#signUp ul li{
+padding-top: 10px;
+padding-bottom: 5px;
+}
+#signUpList{
+margin-top: 10px;
+margin-right: 120px;
+}
+#buttons{
+    margin-top: 100px;
+    margin-right: 30px;
+}
+th, td{
+border: 1px solid #ddd;
+}
+#buttons li, #gender li {
+display: inline-block;
+}
+input[type="text"]{
+margin-left: 50px;
+}
+input[id="pwd"]{
+margin-left: 35px;
+}
+input[type="email"]{
+margin-left: 55px;
+}
+label[for="addr"]{
+padding-left: 150px;
+}
+input[id="addr"]{
+margin-left: 50px;
+width: 250px;
+}
+input[id="dAddr"]{
+margin-left: 110px;
+}
+#gender{
+margin-right: 60px;
+}
+label[for="gender"]{
+margin-right: 40px;
+}

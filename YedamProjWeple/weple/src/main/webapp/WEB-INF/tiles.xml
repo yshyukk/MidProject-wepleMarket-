@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="home" template="/WEB-INF/tiles/main/template.jsp">
+		<put-attribute name="title" value="Welcome to Home!!" />
+		<put-attribute name="head" value="/WEB-INF/tiles/main/head.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/main/home.jsp" />
+		<put-attribute name="foot" value="/WEB-INF/tiles/main/foot.jsp" />
+	</definition>
+
+	<definition name="WILDCARD:main/*" extends="home">
+		<put-attribute name="body" value="/WEB-INF/jsp/main/{1}.jsp" />
+	</definition>
+	
+	
+	<definition name="user" template="/WEB-INF/tiles/user/template.jsp">
+		<put-attribute name="title" value="Welcome to Home!!" />
+		<put-attribute name="head" value="/WEB-INF/tiles/main/head.jsp" />
+		<put-attribute name="menu2" value="/WEB-INF/tiles/user/menu2.jsp" />
+		<put-attribute name="info" value="/WEB-INF/tiles/user/info.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/user/home.jsp" />
+		<put-attribute name="foot" value="/WEB-INF/tiles/main/foot.jsp" />
+	</definition>
+
+	<definition name="WILDCARD:user/*" extends="user">
+		<put-attribute name="body" value="/WEB-INF/jsp/user/{1}.jsp" />
+	</definition>
+	
+	
+	<definition name="account" template="/WEB-INF/tiles/account/template.jsp">
+		<put-attribute name="title" value="Welcome to Home!!" />
+		<put-attribute name="body" value="/WEB-INF/tiles/account/home.jsp" />
+	</definition>
+
+	<definition name="WILDCARD:account/*" extends="account">
+		<put-attribute name="body" value="/WEB-INF/jsp/account/{1}.jsp" />
+	</definition>
+	
+</tiles-definitions>

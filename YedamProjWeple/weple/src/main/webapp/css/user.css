@@ -1,0 +1,63 @@
+ul li{
+    list-style: none;
+}
+#wrapper{
+    width:1100px;
+    margin: 0 auto;
+    text-align: center
+}
+#allMenu { 
+padding-left: 0;
+width: 978px;
+height: 50px;
+text-align: center; 
+}
+#allMenu ul li{
+display: inline-block;
+padding: 10px;
+}
+#myInfo {
+height: 40px;
+}
+#myInfo ul li {
+display: inline-block;
+
+text-align: justify;
+}
+#mypageMenu{
+float: left;
+width: 200px;
+height: 500px;
+text-align: center;
+}
+#mypageMenu ul {
+text-align: center;
+padding-left: 0px;
+}
+#mypageMenu ul li {
+padding: 20px;
+}
+#relogin{
+float:right;
+width: 728px;
+height: 500px; 
+}
+#relogin ul {
+padding-left: 0;
+}
+input[type="text"]{
+margin-left: 15px;
+}
+.jjimList{
+border: 1px solid #ddd;
+width: 740px;
+}
+#jjimList{
+margin-left: 233px;
+margin-top: 10px;
+width: 740px;
+border: 1px solid #ddd;
+}
+th, td{
+border: 1px solid #ddd;
+}

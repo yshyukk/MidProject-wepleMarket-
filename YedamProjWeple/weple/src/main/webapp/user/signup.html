@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>signup</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #EDEDEE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Raleway', sans-serif;
+    height: 100vh;
+}
+
+h2 {
+	font-weight: bold;
+	margin: 0;
+}
+
+p {
+	font-size: 10px;
+}
+
+a {
+	font-size: 12px;
+	text-decoration: none;
+	margin: 15px;
+}
+
+.button {
+	border: none;
+	font-size: 12px;
+	padding: 12px 45px;
+    background-color: #a7a7ac;
+}
+
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 50px;
+	height: 100%;
+}
+
+.input {
+	border: 1px solid;
+	padding: 12px;
+	margin: 5px;
+	width: 100%;
+}
+
+.container {
+    border: 1px solid;
+	border-radius: 10px;
+	position: relative;
+	width: 770px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+.form {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.signup-container {
+	right: 50px;
+	width: 50%;
+}
+
+.container2 {
+	position: absolute;
+	top: 0;
+	right: 65%;
+	width: 35%;
+	height: 100%;
+    background-color: rgb(187, 187, 187);
+}
+
+.signup {
+	text-align: center;
+    padding: 180px 0px;
+}
+
+.gender{
+    position:relative;
+    margin: 0 auto;
+    width: 100%;
+    margin: 10px;
+}
+.adr{
+    margin-bottom: 10px;
+}
+    </style>
+  </head>
+  <body>
+      <div class="container">
+
+        <div class="container2">
+            <div class="signup">
+                <h2>Welcome to With+</h2>
+                <p>test 공동구매는 가입이 필요합니다 tset</p>
+                <button class="button" onclick="location.href='login.html' ">Login</button>
+            </div>
+ 
+        </div>
+        <div class="form signup-container">
+            <form action="#">
+                <h2>With+ Logo</h2>
+                <input class="input" type="text" placeholder="User ID">
+                <input class="input"type="password" placeholder="Password">
+                <input class="input"type="email" placeholder="Email">
+                <div class="adr">
+                    <input type="text" placeholder="우편번호">
+                    <input type="button" value="우편번호 찾기">
+                    <input type="text" placeholder="주소">
+                    <input type="text" placeholder="상세주소">
+                </div>
+                <input class="input"type="text" placeholder="Tel-Num">
+                <input class="input"type="date"> 
+                <select class="gender">
+                    <option value="">성별 선택</option>
+                    <option value="남">남</option>
+                    <option value="여">여</option>
+                </select>
+ 
+
+                <button class="button">Sign up</button>
+
+            </form>
+        </div>
+
+        <script>
+
+        </script>
+      </form>
+    </div>
+  </body>
+</html>
